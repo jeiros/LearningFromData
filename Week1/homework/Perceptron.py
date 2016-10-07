@@ -91,8 +91,6 @@ class Perceptron(object):
 
         return(it, self.estimate_disagreement(vec=self.w))
 
-
-
     def estimate_disagreement(self, vec, N=1000):
         error = 0
         for _ in range(N):
